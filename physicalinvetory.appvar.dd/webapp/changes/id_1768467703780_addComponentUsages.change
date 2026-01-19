@@ -1,0 +1,23 @@
+{
+  "fileName": "id_1768467703780_addComponentUsages",
+  "namespace": "apps/ui.s2p.mm.im.pi.create.mass/appVariants/customer.physicalinvetory.appvar.dd/changes",
+  "layer": "CUSTOMER_BASE",
+  "fileType": "change",
+  "creation": "2026-01-15T09:01:43.780Z",
+  "packageName": "$TMP",
+  "reference": "customer.physicalinvetory.appvar.dd",
+  "support": {
+    "generator": "@sap-ux/adp-tooling"
+  },
+  "changeType": "appdescr_ui5_addComponentUsages",
+  "content": {
+    "componentUsages": {
+      "customer.upload": {
+        "name": "customer.physicalinvetory.appvar.dd",
+        "lazy": false,
+        "settings": {},
+        "data": {}
+      }
+    }
+  }
+}

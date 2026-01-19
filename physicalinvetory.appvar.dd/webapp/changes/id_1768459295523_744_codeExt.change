@@ -1,0 +1,23 @@
+{
+  "changeType": "codeExt",
+  "reference": "customer.physicalinvetory.appvar.dd",
+  "namespace": "apps/customer.physicalinvetory.appvar.dd/changes/",
+  "creation": "2026-01-15T06:42:33.403Z",
+  "projectId": "customer.physicalinvetory.appvar.dd",
+  "moduleName": "customer/physicalinvetory/appvar/dd/changes/coding/UploadFile",
+  "support": {
+    "generator": "@sap-ux/control-property-editor",
+    "sapui5Version": "1.143.2"
+  },
+  "originalLanguage": "EN",
+  "layer": "CUSTOMER_BASE",
+  "fileType": "change",
+  "fileName": "id_1768459295523_744_codeExt",
+  "content": {
+    "codeRef": "coding/UploadFile.js"
+  },
+  "texts": {},
+  "selector": {
+    "controllerName": "sap.suite.ui.generic.template.ListReport.view.ListReport"
+  }
+}

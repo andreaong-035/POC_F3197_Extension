@@ -1,0 +1,30 @@
+{
+  "changeType": "addXML",
+  "reference": "customer.physicalinvetory.appvar.dd",
+  "namespace": "apps/customer.physicalinvetory.appvar.dd/changes/",
+  "creation": "2026-01-15T08:43:04.972Z",
+  "projectId": "customer.physicalinvetory.appvar.dd",
+  "packageName": "$TMP",
+  "moduleName": "customer/physicalinvetory/appvar/dd/changes/fragments/upload_file.fragment.xml",
+  "support": {
+    "generator": "@sap-ux/control-property-editor",
+    "sapui5Version": "1.143.2",
+    "command": "addXML"
+  },
+  "originalLanguage": "EN",
+  "layer": "CUSTOMER_BASE",
+  "fileType": "change",
+  "fileName": "id_1768466570044_187_addXML",
+  "content": {
+    "targetAggregation": "content",
+    "index": 6,
+    "fragmentPath": "fragments/upload_file.fragment.xml"
+  },
+  "texts": {},
+  "selector": {
+    "id": "ui.s2p.mm.im.pi.create.mass::sap.suite.ui.generic.template.ListReport.view.ListReport::C_PhysInvtryProposal--template::ListReport::TableToolbar",
+    "idIsLocal": false
+  },
+  "dependentSelector": {},
+  "jsOnly": false
+}
