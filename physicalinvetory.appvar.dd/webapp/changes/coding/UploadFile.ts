@@ -1,4 +1,5 @@
 import ControllerExtension from 'sap/ui/core/mvc/ControllerExtension';
+import Spreadsheet from 'sap/ui/export/Spreadsheet';
 
 /**
  * @namespace customer.physicalinvetory.appvar.dd
@@ -13,6 +14,20 @@ export default class UploadFile extends ControllerExtension {
      */
     onInit(this: UploadFile) {
       const view = this.getView();
+
+      // 1. Get the URL of your adaptation project's namespace
+      const projectPath = sap.ui.require.toUrl(
+        'customer/physicalinvetory/appvar/dd',
+      );
+
+      // 2. Map the importer namespace to the local physical path
+      sap.ui.loader.config({
+        paths: {
+          'cc/spreadsheetimporter/v1_7_4':
+            projectPath +
+            '/thirdparty/customcontrol/spreadsheetimporter/v1_7_4',
+        },
+      });
     },
   };
 
@@ -35,5 +50,11 @@ export default class UploadFile extends ControllerExtension {
     })) as any;
 
     spreadsheetUploadComponent.openSpreadsheetUploadDialog();
+  }
+
+  public async onExport(): Promise<void> {
+    // Contoh penggunaan Spreadsheet import
+    // const oSpreadsheet = new Spreadsheet(settings);
+    // oSpreadsheet.build();
   }
 }

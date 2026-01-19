@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://sap.github.io/ui5-tooling/schema/ui5.yaml.json
 
-specVersion: "3.1"
+specVersion: '3.1'
 metadata:
   name: customer-physicalinvetory-appvar-dd
 type: application
@@ -49,6 +49,12 @@ server:
             - /test-resources
           url: https://ui5.sap.com
           version: 1.143.2
+    # - name: fiori-tools-servestatic
+    #   afterMiddleware: compression
+    #   configuration:
+    #     paths:
+    #       - path: /resources/cc/spreadsheetimporter
+    #         src: node_modules/ui5-cc-spreadsheetimporter/dist
 builder:
   customTasks:
     - name: ui5-tooling-transpile-task

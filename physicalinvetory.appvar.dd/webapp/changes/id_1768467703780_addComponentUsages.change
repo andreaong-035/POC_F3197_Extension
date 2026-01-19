@@ -13,10 +13,10 @@
   "content": {
     "componentUsages": {
       "customer.upload": {
-        "name": "customer.physicalinvetory.appvar.dd",
+        "name": "cc.spreadsheetimporter.v1_7_4",
         "lazy": false,
         "settings": {},
-        "data": {}
+        "componentData": {}
       }
     }
   }
