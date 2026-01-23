@@ -32,7 +32,7 @@ server:
       configuration:
         adp:
           target:
-            client: '100'
+            client: '200'
             url: https://ksd.sap.klgsys.com
           ignoreCertErrors: false
     - name: fiori-tools-proxy
@@ -40,7 +40,7 @@ server:
       configuration:
         ignoreCertErrors: false # If set to true, certificate errors will be ignored. E.g. self-signed certificates will be accepted
         backend:
-          - client: '100'
+          - client: '200'
             url: https://ksd.sap.klgsys.com
             path: /sap
         ui5:
