@@ -45,7 +45,9 @@ export default class UploadFile extends ControllerExtension {
       async: true,
       componentData: {
         context: this,
-        // odataType: 'FCLM_BM_SRV.Bank',
+        spreadsheetTemplateFile:
+          'customer/physicalinvetory/appvar/dd/ext/custom_template.xlsx',
+        // odataType: 'MM_IM_PHYS_INV_MASS_CREATE_SRV_01.C_PhysInvtryProposal',
       },
     })) as any;
 
